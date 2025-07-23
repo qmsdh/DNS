@@ -4,7 +4,7 @@
 
 # 一键安装脚本（首次）
 ```bash
-curl -sSL https://raw.githubusercontent.com/qmsdh/DNS/refs/heads/main/dns_set.sh -o dns_set.sh && chmod +x dns_set.sh && bash dns_set.sh
+curl -sSL https://raw.githubusercontent.com/qmsdh/DNS/refs/heads/main/dns_set.sh -o dns_set.sh && chmod +x dns_set.sh && bash dns_set.sh && sudo qmsdns
 ```
 
 # 再次运行
