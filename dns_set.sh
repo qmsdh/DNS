@@ -15,10 +15,13 @@ if [ "$(id -u)" -ne 0 ]; then
 fi
 
 cat << 'EOM'
+
+版本号：1.0.0
 欢迎使用秋名山一键修改DNS脚本！
 秋名山博客：https://blog.qmsdh.com/
 本项目地址：https://github.com/qmsdh/DNS
 特别鸣谢：我的脑洞、ChatGPT
+快捷启动指令：sudo qmsdns
 ----------
 请选择要设置的 DNS（输入对应序号）：
  1) Cloudflare   1.1.1.1
